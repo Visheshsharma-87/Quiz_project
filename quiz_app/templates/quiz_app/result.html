@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+</head>
+<body>
+    <h1>Your Score</h1>
+    <p>You scored {{ score }} out of {{ total }}</p>
+    <p>Result saved to file: <strong>{{ filename }}</strong></p>
+    <a href="{% url 'quiz' %}">Take quiz again</a>
+</body>
+</html>
